@@ -1,0 +1,17 @@
+_schema-version: "2.0.0"
+ID: "de.blogspot.openui5.cachebuster"
+version: 0.0.1
+
+parameters:
+  hcp-deployer-version: "1.0.0"
+
+modules:
+  - name: "cachebuster"
+    type: html5
+    path: .
+    parameters:
+       version: "1.0.0-${timestamp}"
+    build-parameters:
+      xbuilder: grunt
+      builder: zip
+      build-result: ../dist

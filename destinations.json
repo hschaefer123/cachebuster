@@ -1,0 +1,17 @@
+{
+	"server": {
+		"port": "8080",
+		"path": "/webapp/index.html",
+		"open": true
+	},
+	"service": {
+		"sapui5": {
+			"useSAPUI5": false
+		}
+	},
+	"destinations": {
+		"NorthwindOData": {
+			"url": "http://services.odata.org/V4/Northwind/Northwind.svc/"
+		}
+	}
+}

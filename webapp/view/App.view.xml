@@ -1,0 +1,14 @@
+<mvc:View controllerName="de.blogspot.openui5.cachebuster.controller.App" xmlns:html="http://www.w3.org/1999/xhtml"
+	xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<List items="{/Products}">
+						<StandardListItem title="{ProductName}" description="{QuantityPerUnit}"/>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
