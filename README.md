@@ -25,6 +25,7 @@
 - General Tasks
     - clone git project
     - install packages.json dependencies using ```npm install```
+        - if you are using WebStorm / PHPStorm just RightClick on ```packages.json``` and choose ```Run 'npm install' ```
 - Deployment Tasks   
     - download [MTA Archive builder](https://help.sap.com/viewer/58746c584026430a890170ac4d87d03b/Cloud/en-US/9f778dba93934a80a51166da3ec64a05.html) and extract to ```./ci/tools/mta.jar```
     - download [SAP Cloud Platform Neo Environment SDK](https://tools.hana.ondemand.com/#cloud) and extract to ```./ci/tools/neo-java-web-sdk/*```
@@ -32,6 +33,7 @@
     - optionally you can enable your scp password in ```./ci/deploy-mta.bat``` to avoid password input request each deployment 
  
 ### Development Workflow
+If you are using WebStorm / PHPStorm just RightClick on ```packages.json``` and choose ```Show npm Scripts``` to open window with all tasks located in left area.
 - **develop** 
     - start local server using ```npm run serve``` to open the webapp folder [http://127.0.0.1:8080/webapp/index.html](http://127.0.0.1:8080/webapp/index.html) in the browser.
 - **build** 
