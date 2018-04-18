@@ -24,8 +24,7 @@
 ### Prerequisites
 - General Tasks
     - clone git project
-    - install packages.json dependencies using ```npm install```
-        - if you are using WebStorm / PHPStorm just RightClick on ```packages.json``` and choose ```Run 'npm install' ```
+    - install packages.json dependencies using ```npm install```        
 - Deployment Tasks   
     - download [MTA Archive builder](https://help.sap.com/viewer/58746c584026430a890170ac4d87d03b/Cloud/en-US/9f778dba93934a80a51166da3ec64a05.html) and extract to ```./ci/tools/mta.jar```
     - download [SAP Cloud Platform Neo Environment SDK](https://tools.hana.ondemand.com/#cloud) and extract to ```./ci/tools/neo-java-web-sdk/*```
@@ -33,7 +32,6 @@
     - optionally you can enable your scp password in ```./ci/deploy-mta.bat``` to avoid password input request each deployment 
  
 ### Development Workflow
-If you are using WebStorm / PHPStorm just RightClick on ```packages.json``` and choose ```Show npm Scripts``` to open window with all tasks located in left area.
 - **develop** 
     - start local server using ```npm run serve``` to open the webapp folder [http://127.0.0.1:8080/webapp/index.html](http://127.0.0.1:8080/webapp/index.html) in the browser.
 - **build** 
@@ -44,6 +42,14 @@ If you are using WebStorm / PHPStorm just RightClick on ```packages.json``` and 
     - use deploy-mta script ```cd ci & deploy-mta``` to build and deploy app to scp
         - Initially a **cachebuster.mtar** (MultiTargetArchive) is generated using the **MTA Archive builder**.
         - Secondly the **cachebuster.mtar** file is deployed to SCP using **SAP Cloud Platform Neo Environment SDK**.
+
+### WebStorm / PhpStorm IDE
+If you are using WebStorm / PhpStorm IDE, you can benefit from the we integrations like using NPM Window showing available tasks like serve/build/deploy and even see local server.
+- RightClick on ```packages.json``` and choose:
+    - ```Run 'npm install' ```to install all npm dependencies
+    - ```Show npm Scripts``` to open window with all tasks located in left area.
+
+![Screenshot](PhpStorm.jpg)
 
 ## License
 
