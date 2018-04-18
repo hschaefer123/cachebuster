@@ -44,9 +44,9 @@
         - Secondly the **cachebuster.mtar** file is deployed to SCP using **SAP Cloud Platform Neo Environment SDK**.
 
 ### WebStorm / PhpStorm IDE
-If you are using WebStorm / PhpStorm IDE, you can benefit from the we integrations like using NPM Window showing available tasks like serve/build/deploy and even see local server.
+If you are using WebStorm / PhpStorm IDE, you can benefit from the web tool integrations.
 - RightClick on ```packages.json``` and choose:
-    - ```Run 'npm install' ```to install all npm dependencies
+    - ```Run 'npm install' ```to install/update all npm dependencies
     - ```Show npm Scripts``` to open window with all tasks located in left area.
 
 ![Screenshot](PhpStorm.jpg)
