@@ -4,7 +4,7 @@
 
 > Futhermore you will get a fully working local development environment that mimiks the SAP SCP platform to be able to run/build/deploy SCP projects locally or in CI / CD pipelines instead inside [WebIDE Full-Stack](https://www.sap.com/developer/tutorials/webide-grunt-basic.html).
 
-## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2018/04/cachebuster.html)
+## [OpenUI5 Developer Blog](http://openui5.blogspot.com/2018/04/cachebuster-on-scp.html)
 
 ### [Online Demo (SAP HCP)](https://cachebuster-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
