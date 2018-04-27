@@ -14,8 +14,8 @@
 			"version": "0.0.0"
 		},
 		"dataSources": {
-			"NorthwindOData": {
-				"uri": "/V4/Northwind/Northwind.svc/",
+			"ODataReferenceService": {
+                "uri": "/TripPinRESTierService/",
 				"type": "OData",
 				"settings": {
 					"odataVersion": "4.0",
@@ -77,7 +77,7 @@
 					"synchronizationMode": "None",
 					"groupId": "$direct"
 				},
-				"dataSource": "NorthwindOData",
+				"dataSource": "ODataReferenceService",
 				"preload": true
 			}
 		},

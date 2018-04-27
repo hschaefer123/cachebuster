@@ -4,8 +4,8 @@
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<List items="{/Products}">
-						<StandardListItem title="{ProductName}" description="{QuantityPerUnit}"/>
+					<List items="{/Airports}">
+						<StandardListItem title="{Name}" description="{Location/City/Name}"/>
 					</List>
 				</content>
 			</Page>

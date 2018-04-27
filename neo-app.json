@@ -1,36 +1,43 @@
 {
-	"welcomeFile": "/webapp/index.html",
-	"authenticationMethod": "none",
-	"routes": [{
-		"path": "/resources",
-		"target": {
-			"type": "service",
-			"name": "sapui5",
-			"entryPath": "/resources"
-		},
-		"description": "SAPUI5 Resources"
-	}, {
-		"path": "/test-resources",
-		"target": {
-			"type": "service",
-			"name": "sapui5",
-			"entryPath": "/test-resources"
-		},
-		"description": "SAPUI5 Test Resources"
-	}, {
-		"path": "/V4/Northwind/Northwind.svc/",
-		"target": {
-			"type": "destination",
-			"name": "NorthwindOData"
-		},
-		"description": "Northwind OData Srv v4"
-	}],
-	"securityConstraints": [{
-		"permission": "AccessApplicationDescriptor",
-		"description": "Access application descriptor",
-		"protectedPaths": [
-			"/neo-app.json"
-		]
-	}],
-	"sendWelcomeFileRedirect": true
+    "welcomeFile": "/webapp/index.html",
+    "authenticationMethod": "none",
+    "routes": [
+        {
+            "path": "/resources",
+            "target": {
+                "type": "service",
+                "name": "sapui5",
+                "entryPath": "/resources"
+            },
+            "description": "SAPUI5 Resources"
+        },
+        {
+            "path": "/test-resources",
+            "target": {
+                "type": "service",
+                "name": "sapui5",
+                "entryPath": "/test-resources"
+            },
+            "description": "SAPUI5 Test Resources"
+        },
+        {
+            "path": "/TripPinRESTierService",
+            "target": {
+                "type": "destination",
+                "name": "ODataServices",
+                "entryPath": "/TripPinRESTierService"
+            },
+            "description": "OData Reference Services"
+        }
+    ],
+    "securityConstraints": [
+        {
+            "permission": "AccessApplicationDescriptor",
+            "description": "Access application descriptor",
+            "protectedPaths": [
+                "/neo-app.json"
+            ]
+        }
+    ],
+    "sendWelcomeFileRedirect": true
 }

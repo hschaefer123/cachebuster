@@ -6,12 +6,13 @@
 	},
 	"service": {
 		"sapui5": {
-			"useSAPUI5": false
+			"useSAPUI5": false,
+			"Xversion": "1.52.11"
 		}
 	},
 	"destinations": {
-		"NorthwindOData": {
-			"url": "http://services.odata.org/V4/Northwind/Northwind.svc/"
-		}
+        "ODataServices": {
+            "url": "http://services.odata.org"
+        }
 	}
 }

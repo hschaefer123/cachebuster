@@ -12,7 +12,7 @@
 
 ### Highlights
 - app showing usage of UI5 [CacheBuster](https://openui5nightly.hana.ondemand.com/#/topic/ff7aceda0bd24039beb9bca8e882825d.html)
-- SCP destination pointing out to northwind v4 example service [Northwind](http://services.odata.org/V4/Northwind/Northwind.svc/) 
+- SCP destination pointing out to odata services v4 reference service [ODataRefSrv](http://services.odata.org/TripPinRESTierService/) 
 - fix/workaround for linux post process bug [Fix #2312](https://github.com/SAPDocuments/Tutorials/issues/2312) inside Gruntfile.js
 - including complete script for local ci server/build/deploy tasks
 
