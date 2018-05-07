@@ -8,7 +8,7 @@
 
 ### [Online Demo (SAP HCP)](https://cachebuster-p1940953245trial.dispatcher.hanatrial.ondemand.com/index.html)
 
-![Screenshot](CacheBuster.jpg)
+![Screenshot](./CacheBuster.jpg)
 
 ### Highlights
 - app showing usage of UI5 [CacheBuster](https://openui5nightly.hana.ondemand.com/#/topic/ff7aceda0bd24039beb9bca8e882825d.html)
@@ -49,7 +49,7 @@ If you are using WebStorm / PhpStorm IDE, you can benefit from the web tool inte
     - ```Run 'npm install' ```to install/update all npm dependencies
     - ```Show npm Scripts``` to open window with all tasks located in left area.
 
-![Screenshot](PhpStorm.jpg)
+![Screenshot](./PhpStorm.jpg)
 
 ## License
 
